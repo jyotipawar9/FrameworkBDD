@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="VtigerLeadSuite">
+	<test thread-count="5" name="TestRunner">
+		<classes>
+			<class name="runner.TestRunner"></class>
+		</classes>
+	</test> <!-- TestRunner -->
+</suite> <!-- VtigerLeadSuite -->
